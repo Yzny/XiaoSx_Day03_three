@@ -49,7 +49,6 @@ public class Main2Activity extends AppCompatActivity {
         mTvW = (TextView) findViewById(R.id.tv_w);
         final vp_adapter adapter = new vp_adapter();
         mVp.setAdapter(adapter);
-
     }
     class  vp_adapter extends PagerAdapter{
         @Override
